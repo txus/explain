@@ -1,0 +1,5 @@
+#!/usr/bin/env rbx
+
+$: << 'lib'
+require 'explain'
+puts Explain.explain File.read(ARGV.first)
